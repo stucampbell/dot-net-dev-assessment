@@ -144,7 +144,7 @@ Documents can be found in the docs folder of the repository
 * Responsive layouts will be simulated using Chrome's developer tools.
 
 ## How do I submit my solution?
-Send a pull request from your repository.
+Send us a link to your repository by emailing the person who sent you the assessment.
 
 ## Questions or comments
 Please use the issues functionality on Github. All questions will be answered via Github.
