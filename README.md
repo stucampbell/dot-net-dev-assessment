@@ -53,7 +53,7 @@ The Artist Search and Artist Releases endpoints must be developed according to t
       * Artist name
       * Originating country
       * Aliases for the artist
-      * Link to the artist's albums
+      * Link to the artist's releases
     * The return data in JSON format should look as follows:
 ```   
     {
@@ -86,7 +86,7 @@ The Excel spreadsheet in the docs folder contains information about 16 artists. 
 ## Artist Releases
 * ```/artist/<artist_id>/releases``` as a GET. This endpoint will return all the releases for a selected artist where the artist_id uniquely identifies an artist in the SQL Server database and MusicBrainz API.
 
-  * ```/artist/6c44e9c22-ef82-4a77-9bcd-af6c958446d6/albums``` will return the first 10 albums from Mumford & Sons.
+  * ```/artist/6c44e9c22-ef82-4a77-9bcd-af6c958446d6/releases``` will return the first 10 releases from Mumford & Sons.
     * The response should contain the following information in JSON
       * Release Id
       * Title of release
